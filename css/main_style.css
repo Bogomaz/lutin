@@ -1,0 +1,192 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    text-align: justify;
+}
+#wrap {
+    background-color: #ffffff;
+    height: 100%;
+    margin: 30px 150px 5px 150px;
+ 
+}
+/*Логотип, название и поиск*/
+#header{
+    float: top;
+}
+#logo{
+    width: 15px;
+    height: 15px;
+    border: #29c5e6 solid 4px; /*бирюзовый*/
+}
+#title{
+    color: #7e7e7e; /*серый*/
+    font-size: 14pt;
+    /*font-weight: bold;*/
+    font-family: verdana;    
+    margin: 0px 0px 0px 20px;
+    float: left; 
+}
+#search{
+    float: right;
+}
+.text{
+    width: 250px;
+    height: 25px;
+    background: #f3f3f3;
+    border: solid 1px #e7e7e7;
+    font-size: 11pt;
+    font-style: italic;
+    color: #b2b2b2;   
+}
+.button{
+    height: 27px;
+    width: 70px;
+    background-color: #29c5e6;
+    border: solid 1px #29c5e6;
+    color: #ffffff;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: calibri;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*Главное меню*/
+#mainMenu{
+    height: 30px;
+    margin: 50px 0px 0px 0px; 
+    border: 1px #e7e7e7 solid;
+    background: #f3f3f3;
+}
+#miniMenu{
+    height: 30px;
+    /*margin: 50px 0px 0px 0px; */
+    border: 1px #e7e7e7 solid;
+    background: #f3f3f3;
+}
+ul {
+        margin: 0px;
+        padding: 0px;
+        font: 14px Verdana, Geneva, sans-serif;
+        text-align: justify;
+}
+ul li  {
+    background: #f3f3f3;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border: none
+}
+ul li.helper {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+}
+.menu:hover .mainMenu{
+    color: #ffffff;
+}
+.menu:hover{
+    background: #29c5e6;    
+}
+a{
+    font-size: 12pt;
+    font-family: verdana;   
+    margin: 5px;
+    color: #b2b2b2;
+    vertical-align: middle;
+}
+
+/* Баннер и мини-меню */
+#logoblock{
+    background: #e2e2e2;
+    height: 100px;
+    margin-top: 15px;
+    width: 100%;
+}
+.miniMenu{
+    font-size: 14pt;
+    font-family: verdana;   
+    color: #b2b2b2;
+    vertical-align: middle;
+}
+.pointMenu{
+    height: 22px;
+    width:22px;
+    background: #8f8f8f;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+
+    text-align: center; 
+    font-size: 13pt;
+    font-family: arial;   
+    color: #ffffff;    
+}
+.mini:hover .pointMenu{
+    background: #29c5e6;
+}
+.mini:hover .miniMenu{
+    color: #29c5e6;
+}
+
+/*Контент-блоки*/
+#content{
+    height: 100%;
+}
+.blockLeft, .blockRight{
+    height: 300px;
+    width: 45%;
+    float: left;
+}
+.blockLeft{
+    float: left;
+    margin: 20px 0px 0px 0px;
+}
+.blockRight{
+    float: right;
+    margin: 20px 0px 0px 0px;
+}
+
+.point{
+    height: 22px;
+    width:22px;
+    background: #29c5e6;
+    float: left;
+    margin-top: 2px;
+
+}
+.caption{
+    font-size: 12pt;
+    font-family: verdana;   
+    color: #8f8f8f;
+    margin-top: 2px;
+    margin-left: 40px;
+    vertical-align: middle;    
+}
+
+.blockContent{
+    font-size: 10pt;
+    font-family: verdana;   
+    color: #8f8f8f;
+    margin-top: 10px;
+    vertical-align: middle;
+
+}
+a{
+    font-size: 10pt;
+    font-family: verdana;     
+    float: right;
+    color: #505050;
+ }
+ 
+ /*Подвал*/
+ #footer{
+    background: #e2e2e2;
+    height: 100px;
+    width: 100%;
+    float: bottom;
+    font-size: 10pt;
+    font-family: verdana;   
+    color: #505050;
+}
