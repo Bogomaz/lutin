@@ -1,0 +1,162 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    text-align: justify;
+    
+    font-size: 10pt;
+    font-family: calibri;
+    background-color: #4E4431;
+}
+#wrap {
+    height: auto;
+    margin: 0px 150px 5px 150px;
+    padding: 50px 20px;
+    position: absolute;
+    height: 100%;
+   /* background-color: #ffffff;*/
+    
+}
+
+/*Логотип, название и поиск*/
+#logo{
+    width: 15px;
+    height: 15px;
+    border: #00B98B solid 4px; /*бирюзовый*/
+}
+#title{
+    margin: 0px 0px 0px 20px;
+    float: left; 
+    color: #7e7e7e; /*серый*/
+    font-size: 14pt;
+}
+#search{
+    float: right;
+}
+.text{
+    width: 250px;
+    height: 25px;
+    border: solid 1px #FBF8EF;
+    background: #FBF8EF;
+    color: #A7906B; 
+    font-style: italic;
+}
+.button, .navigateButton{
+    height: 27px;
+    width: 70px;
+    border: none;
+    background-color: #29c5e6;
+    color: #FBCF2E;
+    font-weight: bold;
+    font-family: calibri;
+    letter-spacing: 1px;
+    text-align: center;
+    /*font: 14px/100% Arial, Helvetica, sans-serif;/
+    /*	padding: .5em 2em .55em; /* изменения  отступа для регулировки размера */
+    text-shadow: 0 1px 1px rgba(0,0,0,.3); /* эффект тени для текста */
+    -webkit-border-radius: .5em;  /* закругленные углы */
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); /* эффект тени для блока кнопки */
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    background-color: #008564;    
+    background: #008564; /*цвет фона кнопки для браузеров без поддержки CSS3*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#00B98B), to(#017C5D)); /* для Webkit браузеров */
+    background: -moz-linear-gradient(top,  #00B98B,  #017C5D); /* для Firefox */
+    background-image: -o-linear-gradient(top,  #00B98B,  #017C5D); /* для Opera 11 */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00B98B', endColorstr='#017C5D'); /* фильтр для IE */
+}
+.button, .navigateButton:hover {
+    text-decoration: none;
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00D5A0), to(#008564));
+    background: -moz-linear-gradient(top,  #00D5A0,  #008564);
+    background-image: -o-linear-gradient(top,  #00D5A0,  #008564);/* для Opera 11 */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00D5A0', endColorstr='#008564');
+
+}
+.button, .navigateButton:active {          /* смещение на 1px вниз */
+    position: relative;  
+    top: 1px; 
+    color: #fcd3a5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00D5A0), to(#008564));
+    background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+    background-image: -o-linear-gradient(top,  #f47a20,  #faa51a);/* для Opera 11 */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+.navigateButton{
+    width: 300px;
+    height: 200px;
+    font-size: 16pt; 
+}
+
+#content{
+    margin-top: 60px;
+}
+/*общие настройки для блока и его заголовка*/
+.block{
+    width: 200px;
+    height: 90px;
+    margin: 20px;
+    padding-top: 30px;
+    text-align: center;
+    color: #FBCF2E;
+
+}
+.blockHeader{
+    width: 345px;
+    padding: 5px 0px 5px 5px;
+    background: #29c5e6; 
+    color: #ffffff; 
+    font-family: calibri;
+    font-size: 12pt;
+}
+
+/*блоки с функциональными элементами*/
+form{
+    width: 100%; 
+    margin-top: 5px;
+    color: #7e7e7e; 
+    font-family: calibri;
+    font-size: 13pt;    
+}
+.inputGrid{
+    border: none;
+}
+ /*Подвал*/
+ #footer{
+    background: #e2e2e2;
+    height: 100px;
+    width: 100%;
+    float: bottom;
+    font-size: 10pt;
+    color: #505050; 
+}
+/*все ссылки*/
+a{
+    font-size: 13pt;
+    /*font-style: italic;*/
+    text-decoration: none;
+    color: #FBCF2E;     
+}
+a:hover{
+    text-decoration: underline;
+}
+/*все списки*/
+li{
+    list-style-type: none;
+}
+/*
+a.mainNavigator:hover, .block:hover{
+    text-decoration: underline;
+    background-color: dodgerblue;
+    
+}*/
+/*Позиционирование левых и правых блоков*/
+.blockLeft{
+    /*float: left;*/
+}
+.blockRight{
+  float: right;  
+}
